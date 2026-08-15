@@ -1,6 +1,5 @@
 const { getCollection } = require("../config/database");
 
-// Submit contact form
 const submitContact = async (req, res) => {
   try {
     const contactCollection = getCollection("contacts");
